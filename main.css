@@ -29,7 +29,7 @@ header {
   text-transform: uppercase;
   font-weight: 300;
   user-select: none;
-  padding-top: 13px;
+  padding-top: 26px;
 }
 
 .navigation ul {
@@ -38,6 +38,7 @@ header {
   appearance: none;
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .navigation ul.left li {
@@ -58,12 +59,26 @@ header {
   font-family: Cutive;
   font-size: 30px;
   color: #000000;
-  padding-top: 13px;
+  padding-top: 20px;
   cursor: pointer;
   user-select: none;
 }
 
-@media (max-width: 640px) {
+.hero {
+  height: 650px;
+  width: 100%;
+}
+
+@media (max-width: 774px) {
+  .navigation ul.left li {
+    margin-right: 20px;
+  }
+  .navigation ul.right li {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 750px) {
   .navigation ul {
     display: none;
   }
