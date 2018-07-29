@@ -127,6 +127,86 @@ header {
   user-select: none;
 }
 
+.typesOfCoffee {
+  margin: 70px 0;
+}
+
+h1 {
+  font-family: Cutive;
+  font-size: 36px;
+  letter-spacing: 0.07em;
+  color: #000000;
+  margin: 0 70px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #808080;
+  margin: 0 70px;
+}
+
+.typeCards {
+  display: grid;
+  grid-template-columns: repeat(5, 250px);
+  grid-gap: 50px;
+  margin-left: 70px;
+  margin-top: 18px;
+}
+
+.typeCard {
+  background: #FFFFFF;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  height: 400px;
+  width: 250px;
+}
+
+.typeCardPhoto {
+  height: 250px;
+  width: 250px;
+  border-radius: 4px 4px 0 0;
+}
+
+#typeCardPhoto-1 {
+  background: url(img/typeCardBG-1.jpg) no-repeat -44px top / cover;
+}
+
+#typeCardPhoto-2 {
+  background: url(img/typeCardBG-2.jpg) no-repeat left top / cover;
+}
+
+#typeCardPhoto-3 {
+  background: url(img/typeCardBG-3.jpg) no-repeat center bottom / cover;
+}
+
+#typeCardPhoto-4 {
+  background: url(img/typeCardBG-4.jpg) no-repeat center top / cover;
+}
+
+#typeCardPhoto-5 {
+  background: url(img/typeCardBG-5.jpg) no-repeat center top / cover;
+}
+
+h2 {
+  font-family: Cutive;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 31px;
+}
+
+.typesOfCoffee p {
+  margin: 13px auto;
+  width: 211px;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #808080;
+}
+
 @media (max-width: 774px) {
   .navigation ul.left li {
     margin-right: 20px;
